@@ -1,0 +1,29 @@
+{
+  "name": "express-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "DEBUG=mqttjs* nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verycosy/express-mqtt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verycosy/express-mqtt/issues"
+  },
+  "homepage": "https://github.com/verycosy/express-mqtt#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mqtt": "^4.2.1"
+  }
+}
